@@ -1,0 +1,36 @@
+html {
+  box-sizing: border-box;
+}
+
+.header {
+  padding-top: 5px;
+  margin-left: 40%;
+}
+.body {
+  margin: 20px auto;
+  padding: 10px;
+  background: #eee;
+}
+.label {
+  margin-left: 20px;
+}
+.form {
+  width: 100%;
+  max-width: 560px;
+  margin: 100px auto;
+  background: #fff;
+  padding: 20px 30px;
+  -webkit-box-shadow: 5px 5px 15px 5px rgba(100, 100, 100, 0.27);
+  box-shadow: 5px 5px 15px 5px rgba(100, 100, 100, 0.27);
+  font-size: 18px;
+}
+.h1 {
+  text-align: center;
+  font-weight: 700;
+  font-size: 30px;
+}
+.labelText {
+  display: inline-block;
+  width: 240px;
+  margin-right: 5px;
+}

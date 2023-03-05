@@ -26,3 +26,43 @@ const calculateRates = (data) => {
     data.rates[0].mid * moneyOwnedElement.value
   ).toFixed(2);
 };
+
+// import React from "react";
+// import "./style.css";
+
+// function getButton() {
+//   return
+//  <button onClick={handleClick}> Przelicz: </button>;
+// // }
+
+// function labelText() {
+//   return(
+//     <span>
+//         Wybierz posiadaną walutę
+//     </span>
+//     );
+// }
+// function labelText2(){
+// return(
+//     <span>Ile przeliczamy:</span>
+//     );
+// }
+
+// function js-exchangedAmount(){
+// return(
+//     <p>
+//       Wychodzi: </p>
+//     );
+// }
+
+// // // // export default function className() {
+// // // //   return (
+// // // //     <div>
+// // // //       <h1>Przelicznik walut</h1>
+// // //         <labelText/>
+// //  <labelText2 />
+// <getButton>
+//     <js-exchangedAmount>
+// // // //     </div>
+// // // //   );
+// // // }
