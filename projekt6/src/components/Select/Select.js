@@ -5,7 +5,6 @@ function Select({ handleChange }) {
   const [selectValue, setSelectValue] = useState("USD");
 
   const handleSelectChange = (event) => {
-    console.log(event.target.value);
     setSelectValue(event.target.value);
     handleChange(event.target.value);
   };
